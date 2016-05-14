@@ -34,10 +34,9 @@ public class MyFirstClass {
                     System.out.println("Leto");
                     break;
                 default:
-                    System.out.println("vvedi ot 1 do 12");
+                    System.out.println("Введи от 1 do 12");
             }
-        } while (number >= 1 && number <= 12) ;
-
+        } while (number >= 1 && number <= 12);
 
 
     }
