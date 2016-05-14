@@ -36,7 +36,8 @@ public class MyFirstClass {
                 default:
                     System.out.println("Введи от 1 do 12");
             }
-        } while (number >= 1 && number <= 12);
+        } while (number >12);
+        scanner.close();
 
 
     }
