@@ -14,18 +14,16 @@ public class SumOfTwoInt {
         if (sc.hasNextInt()) {
             x = sc.nextInt();
             System.out.println("введи второе число");
-            if (sc.hasNextInt()){
+            if (sc.hasNextInt()) {
 
-                y=sc.nextInt();
+                y = sc.nextInt();
                 sum(x, y);
-            }else{
+            } else {
                 System.out.println("введи целое число");
             }
         } else {
             System.out.println("введи целое число");
         }
-
-
 
 
     }
