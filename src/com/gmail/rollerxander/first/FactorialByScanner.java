@@ -5,7 +5,7 @@ package com.gmail.rollerxander.first;
 import java.util.Scanner;
 
 public class FactorialByScanner {
-    public static void main(String... args){
+    public static void main(String... args) {
         int n;
         do {
             Scanner scan = new Scanner(System.in);
@@ -17,9 +17,12 @@ public class FactorialByScanner {
             System.out.println(result);
             if (n == 0 || n == 1)
                 System.out.println(result);
-            if(n < 0)
+            if (n < 0)
                 System.out.println("Это отрицательный факториал!");
-        } while (n < 0);{System.out.println("Конец");}
+        } while (n < 0);
+        {
+            System.out.println("Конец");
+        }
     }
 
 
