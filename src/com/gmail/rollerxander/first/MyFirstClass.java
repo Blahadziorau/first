@@ -31,7 +31,7 @@ public class MyFirstClass {
                 case 9:
                 case 10:
                 case 11:
-                    System.out.println("Leto");
+                    System.out.println("Osen");
                     break;
                 default:
                     System.out.println("Введи от 1 do 12");
