@@ -8,9 +8,12 @@ public class First55 {
             if(i%2!=0&count55<56){
                 System.out.println(i);
                 count55++;
+            }else if (count55==56){
+                break;
             }
 
 
         }
+
     }
 }
