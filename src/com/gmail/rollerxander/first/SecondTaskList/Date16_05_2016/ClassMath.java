@@ -10,5 +10,6 @@ public class ClassMath {
 
         System.out.println(Math.abs(-112));
         System.out.println(Math.sqrt(2.0));
+
     }
 }
