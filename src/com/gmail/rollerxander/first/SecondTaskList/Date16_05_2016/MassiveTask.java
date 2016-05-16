@@ -13,7 +13,6 @@ public class MassiveTask {
         for (int i = 0; i < mas.length; i++) {
             for (int j = 0; j < mas[i].length; j++) {
                 System.out.print((mas[i][j] = random.nextInt(90) + 10) + "; ");
-
             }
             System.out.println();
 
