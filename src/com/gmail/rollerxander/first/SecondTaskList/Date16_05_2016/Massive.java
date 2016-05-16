@@ -12,7 +12,7 @@ public class Massive {
 
         int[] mass1 = mass;
         mass1[0] = 1000;
-        System.out.println(mass1[0]);
         System.out.println(mass[0]);
+        System.out.println(mass[1]);
     }
 }
