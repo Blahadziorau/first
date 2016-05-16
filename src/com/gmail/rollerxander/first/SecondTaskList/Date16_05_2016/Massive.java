@@ -8,18 +8,11 @@ import java.util.Scanner;
  */
 public class Massive {
     public static void main(String... args) {
-        int[] mass = new int[10];
+        int[] mass = new int[]{1, 4, 5, 6, 0, 12, 65, 78, 987};
 
-        Scanner scanner = new Scanner(System.in);
-
-        for (int i = 0; i < mass.length; i++) {
-
-            while (!scanner.hasNextInt()) {
-                scanner.next();
-            }
-            mass[i] = scanner.nextInt();
-        }
-        System.out.println(Arrays.toString(mass));
-
+        int[] mass1 = mass;
+        mass1[0] = 1000;
+        System.out.println(mass1[0]);
+        System.out.println(mass[0]);
     }
 }
