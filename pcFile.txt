@@ -1,0 +1,6 @@
+PersonalComputer{
+name='ForOffice',
+monitor=Monitor{brandMonitor='lg', x=1200, y=800},
+cpu=Cpu{brandCpu='Intel', numOfCores=4, cpuFrequency=2.5},
+hdd=Hdd{brandHdd='WD', volume=500},
+ram=Ram{brandRam='Kingston', ramVolume=4096}}
