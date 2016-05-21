@@ -30,12 +30,12 @@ public class PersonalComputer {
 
     @Override
     public String toString() {
-        return "PersonalComputer{\n" +
+        return "PersonalComputer{" +
                 "name='" + name + '\'' +
-                ",\nmonitor=" + monitor +
-                ",\ncpu=" + cpu +
-                ",\nhdd=" + hdd +
-                ",\nram=" + ram +
+                ", nmonitor=" + monitor +
+                ", cpu=" + cpu +
+                ", hdd=" + hdd +
+                ", ram=" + ram +
                 '}';
     }
 
