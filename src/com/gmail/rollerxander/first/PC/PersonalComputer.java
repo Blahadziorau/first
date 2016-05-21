@@ -12,19 +12,33 @@ public class PersonalComputer {
     private Hdd hdd;
     private Ram ram;
 
-    public PersonalComputer() {
-    }
-
-    public PersonalComputer(Monitor monitor) {
-        this.monitor = monitor;
-    }
-
-    public PersonalComputer(Monitor monitor, Cpu cpu, Hdd hdd, Ram ram) {
+    public PersonalComputer(String name, Monitor monitor, Cpu cpu, Hdd hdd, Ram ram) {
+        this.name = name;
         this.monitor = monitor;
         this.cpu = cpu;
         this.hdd = hdd;
         this.ram = ram;
     }
+
+    public void PcTotalInfo() {
+        System.out.println("Total Info:");
+        monitor.monitorInfo();
+        cpu.cpuInfo();
+        hdd.hddInfo();
+        ram.ramInfo();
+    }
+
+    @Override
+    public String toString() {
+        return "PersonalComputer\n{" +
+                "name='" + name + '\'' +
+                ",\nmonitor=" + monitor +
+                ",\ncpu=" + cpu +
+                ",\nhdd=" + hdd +
+                ",\nram=" + ram +
+                '}';
+    }
+
 
     public Monitor getMonitor() {
         return monitor;
@@ -58,11 +72,5 @@ public class PersonalComputer {
         this.ram = ram;
     }
 
-    public void PcTotalInfo() {
-        System.out.println("Total Info:");
-        monitor.monitorInfo();
-        cpu.cpuInfo();
-        hdd.hddInfo();
-        ram.ramInfo();
-    }
+
 }

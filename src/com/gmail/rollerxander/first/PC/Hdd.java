@@ -12,6 +12,18 @@ public class Hdd {
         this.volume = volume;
     }
 
+    public void hddInfo() {
+        System.out.println(getBrandHdd() + " " + getVolume());
+    }
+
+    @Override
+    public String toString() {
+        return "Hdd{" +
+                "brandHdd='" + brandHdd + '\'' +
+                ", volume=" + volume +
+                '}';
+    }
+
     public String getBrandHdd() {
         return brandHdd;
     }
@@ -28,7 +40,5 @@ public class Hdd {
         this.volume = volume;
     }
 
-    public void hddInfo() {
-        System.out.println(getBrandHdd() + " " + getVolume());
-    }
+
 }

@@ -15,6 +15,18 @@ public class Monitor {
         this.y = y;
     }
 
+    public void monitorInfo() {
+        System.out.println(getBrandMonitor() + " " + getX() + "x" + getY());
+    }
+
+    @Override
+    public String toString() {
+        return "Monitor{" +
+                "brandMonitor='" + brandMonitor + '\'' +
+                ", x=" + x +
+                ", y=" + y +
+                '}';
+    }
 
     public String getBrandMonitor() {
         return brandMonitor;
@@ -40,7 +52,5 @@ public class Monitor {
         this.y = y;
     }
 
-    public void monitorInfo() {
-        System.out.println(getBrandMonitor() + " " + getX() + "x" + getY());
-    }
+
 }

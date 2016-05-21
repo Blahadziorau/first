@@ -12,6 +12,18 @@ public class Ram {
         this.ramVolume = ramVolume;
     }
 
+    public void ramInfo() {
+        System.out.println(getBrandRam() + " " + getRamVolume());
+    }
+
+    @Override
+    public String toString() {
+        return "Ram{" +
+                "brandRam='" + brandRam + '\'' +
+                ", ramVolume=" + ramVolume +
+                '}';
+    }
+
     public String getBrandRam() {
         return brandRam;
     }
@@ -28,7 +40,5 @@ public class Ram {
         this.ramVolume = ramVolume;
     }
 
-    public void ramInfo() {
-        System.out.println(getBrandRam() + " " + getRamVolume());
-    }
+
 }

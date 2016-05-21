@@ -14,6 +14,19 @@ public class Cpu {
         this.cpuFrequency = cpuFrequency;
     }
 
+    public void cpuInfo() {
+        System.out.println(getBrandCpu() + " " + getNumOfCores() + "x" + getCpuFrequency());
+    }
+
+    @Override
+    public String toString() {
+        return "Cpu{" +
+                "brandCpu='" + brandCpu + '\'' +
+                ", numOfCores=" + numOfCores +
+                ", cpuFrequency=" + cpuFrequency +
+                '}';
+    }
+
     public String getBrandCpu() {
         return brandCpu;
     }
@@ -38,7 +51,5 @@ public class Cpu {
         this.cpuFrequency = cpuFrequency;
     }
 
-    public void cpuInfo() {
-        System.out.println(getBrandCpu() + " " + getNumOfCores() + "x" + getCpuFrequency());
-    }
+
 }
