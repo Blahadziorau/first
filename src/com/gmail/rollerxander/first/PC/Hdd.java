@@ -28,16 +28,9 @@ public class Hdd {
         return brandHdd;
     }
 
-    public void setBrandHdd(String brandHdd) {
-        this.brandHdd = brandHdd;
-    }
 
     public int getVolume() {
         return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
     }
 
 

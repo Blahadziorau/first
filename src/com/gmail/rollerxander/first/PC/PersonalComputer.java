@@ -39,37 +39,20 @@ public class PersonalComputer {
                 '}';
     }
 
-
     public Monitor getMonitor() {
         return monitor;
-    }
-
-    public void setMonitor(Monitor monitor) {
-        this.monitor = monitor;
     }
 
     public Cpu getCpu() {
         return cpu;
     }
 
-    public void setCpu(Cpu cpu) {
-        this.cpu = cpu;
-    }
-
     public Hdd getHdd() {
         return hdd;
     }
 
-    public void setHdd(Hdd hdd) {
-        this.hdd = hdd;
-    }
-
     public Ram getRam() {
         return ram;
-    }
-
-    public void setRam(Ram ram) {
-        this.ram = ram;
     }
 
 

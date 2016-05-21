@@ -31,24 +31,14 @@ public class Cpu {
         return brandCpu;
     }
 
-    public void setBrandCpu(String brandCpu) {
-        this.brandCpu = brandCpu;
-    }
 
     public int getNumOfCores() {
         return numOfCores;
     }
 
-    public void setNumOfCores(int numOfCores) {
-        this.numOfCores = numOfCores;
-    }
 
     public double getCpuFrequency() {
         return cpuFrequency;
-    }
-
-    public void setCpuFrequency(double cpuFrequency) {
-        this.cpuFrequency = cpuFrequency;
     }
 
 

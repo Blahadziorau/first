@@ -28,16 +28,8 @@ public class Ram {
         return brandRam;
     }
 
-    public void setBrandRam(String brandRam) {
-        this.brandRam = brandRam;
-    }
-
     public int getRamVolume() {
         return ramVolume;
-    }
-
-    public void setRamVolume(int ramVolume) {
-        this.ramVolume = ramVolume;
     }
 
 
