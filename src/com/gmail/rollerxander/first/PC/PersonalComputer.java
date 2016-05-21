@@ -21,7 +21,7 @@ public class PersonalComputer {
     }
 
     public void PcTotalInfo() {
-        System.out.println("Total Info:");
+        System.out.println("Total Info:\n" + name);
         monitor.monitorInfo();
         cpu.cpuInfo();
         hdd.hddInfo();
