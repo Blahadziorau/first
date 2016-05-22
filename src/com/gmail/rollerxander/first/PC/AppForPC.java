@@ -26,7 +26,7 @@ public class AppForPC {
 
         Scanner in = new Scanner(pcFile);
         String h = in.nextLine();
-        System.out.println("Читаем из файла: " + h.toString());
+        System.out.println("Читаем из файла: " + h.toString()+"\n");
         in.close();
 
 

@@ -32,7 +32,7 @@ public class PersonalComputer {
     public String toString() {
         return "PersonalComputer{" +
                 "name='" + name + '\'' +
-                ", nmonitor=" + monitor +
+                ", monitor=" + monitor +
                 ", cpu=" + cpu +
                 ", hdd=" + hdd +
                 ", ram=" + ram +
