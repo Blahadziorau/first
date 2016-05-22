@@ -16,7 +16,7 @@ public class Monitor {
     }
 
     public void monitorInfo() {
-        System.out.println(getBrandMonitor() + " " + getX() + "x" + getY());
+        System.out.println(getBrandMonitor() + ", resolution " + getX() + "x" + getY());
     }
 
     @Override

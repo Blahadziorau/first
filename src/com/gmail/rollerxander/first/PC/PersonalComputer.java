@@ -1,10 +1,8 @@
 package com.gmail.rollerxander.first.PC;
-
 /*
  * создать Пк и параметры вывести тустринг + тетрадка
  */
 public class PersonalComputer {
-
 
     private String name;
     private Monitor monitor;
