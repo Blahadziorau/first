@@ -6,7 +6,7 @@ package com.gmail.rollerxander.first.date23052016;
 public class App {
 
     public static void main(String... args){
-        System.out.println(Sum.Sum(10,4));
+        System.out.println(Sum.Sum(10,4,24,35));
 
     }
 }
