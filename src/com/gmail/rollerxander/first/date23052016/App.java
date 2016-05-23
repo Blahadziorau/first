@@ -7,6 +7,9 @@ public class App {
 
     public static void main(String... args){
         System.out.println(Sum.Sum(10,4,24,35));
+        System.out.println(Sum.Sum(10,4,24));
+        System.out.println(Sum.Sum(10,4));
+
 
     }
 }

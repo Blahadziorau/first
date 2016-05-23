@@ -6,7 +6,15 @@ package com.gmail.rollerxander.first.date23052016;
 public class Sum {
     private Sum(){
     }
-    public static int Sum(int a, int b){
+
+    public static int math(int... a){
+        int math=0;
+        for (int i:a) {
+            math+=i;
+        }
+        return math;
+    }
+  /*  public static int Sum(int a, int b){
 
         return a+b;
     }
@@ -18,4 +26,6 @@ public class Sum {
 
         return a+b+c+d;
     }
+    */
+
 }
