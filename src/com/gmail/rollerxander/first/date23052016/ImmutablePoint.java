@@ -7,6 +7,7 @@ public class ImmutablePoint {
     final private int x;
     final private int y;
 
+
     public ImmutablePoint(int x, int y) {
         this.x = x;
         this.y = y;
