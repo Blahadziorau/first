@@ -1,1 +1,3 @@
 PersonalComputer{name='ForOffice', monitor=Monitor{brandMonitor='lg', x=1280, y=800}, cpu=Cpu{brandCpu='Intel', numOfCores=4, cpuFrequency=2.5}, hdd=Hdd{brandHdd='WD', volume=500}, ram=Ram{brandRam='Kingston', ramVolume=4096}}
+
+sonarqube_5.5
