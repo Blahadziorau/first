@@ -1,6 +1,5 @@
 package com.gmail.rollerxander.first.HomeWork;
 
-import java.util.Scanner;
 
 /**
  * Created by Rollershop on 29.05.2016.

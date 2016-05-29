@@ -1,6 +1,5 @@
 package com.gmail.rollerxander.first.HomeWork;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
