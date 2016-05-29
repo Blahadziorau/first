@@ -7,9 +7,7 @@ import java.util.Scanner;
  */
 public class RushApp {
 
-
     // проверка года на високостность
-
 
     public static void main(String[] args) throws Exception {
 
