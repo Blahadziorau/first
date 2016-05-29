@@ -34,8 +34,7 @@ public class BazaRolikov {
 
         Roliki para = new Roliki(brand, model, razmer, diametrKoles, godVypuska);
         return para.toString();
-        //String[] mass= new String[10];
-        //System.out.println(mass[1].toString());
+
 
     }
 
