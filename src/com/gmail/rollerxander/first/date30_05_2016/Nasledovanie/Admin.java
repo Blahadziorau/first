@@ -5,7 +5,7 @@ package com.gmail.rollerxander.first.date30_05_2016.Nasledovanie;
  */
 public class Admin extends Man {
     private String password;
-
+private int i;
     public String getPassword() {
         return password;
     }
@@ -21,5 +21,8 @@ public class Admin extends Man {
 
     public static void print() {
         System.out.println("ADMIN");
+    }
+    public void setI(int i) {
+        this.i = i;
     }
 }

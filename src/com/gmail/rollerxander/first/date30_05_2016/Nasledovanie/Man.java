@@ -4,6 +4,11 @@ package com.gmail.rollerxander.first.date30_05_2016.Nasledovanie;
  * Created by USER on 30.05.2016.
  */
 public class Man {
+   private int i;
+
+    public void setI(int i) {
+        this.i = i;
+    }
 
     private String firstName;
 
