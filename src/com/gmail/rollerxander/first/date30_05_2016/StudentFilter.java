@@ -10,7 +10,6 @@ public class StudentFilter {
 
     StudentFilter(Student[] students) {
         this.students = students;
-
     }
 
     void printByName(String name) {
@@ -19,8 +18,6 @@ public class StudentFilter {
                 System.out.println(s);
             }
         }
-
-
     }
 
     void printYangest(Date date) {
@@ -37,6 +34,5 @@ public class StudentFilter {
                 System.out.println(group);
             }
         }
-
     }
 }
