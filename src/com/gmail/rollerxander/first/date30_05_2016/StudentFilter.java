@@ -31,7 +31,7 @@ public class StudentFilter {
     void listGroup(int group) {
         for (Student s : students) {
             if (s.getGroup() == group) {
-                System.out.println(group);
+                System.out.println(s);
             }
         }
     }
