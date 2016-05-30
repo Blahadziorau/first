@@ -1,11 +1,13 @@
 package com.gmail.rollerxander.first.date30_05_2016;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Created by USER on 30.05.2016.
  */
 public class Student {
+    private final static SimpleDateFormat FORMAT = new SimpleDateFormat("dd//MM//YYYY");
     private Student[] student;
     private int id;
     private String sureName;
@@ -14,6 +16,7 @@ public class Student {
     private Date birthDate;
     private int kurs;
     private int group;
+
 
     public Student(int id, String sureName, String firstName, String secondName, Date birthDate, int kurs, int group) {
         this.id = id;
@@ -32,7 +35,7 @@ public class Student {
                 ", sureName='" + sureName + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", secondName='" + secondName + '\'' +
-                ", birthDate=" + birthDate +
+                ", birthDate=" + FORMAT.format(birthDate) +
                 ", kurs=" + kurs +
                 ", group=" + group +
                 '}';

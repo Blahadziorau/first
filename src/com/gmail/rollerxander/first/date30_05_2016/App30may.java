@@ -8,6 +8,7 @@ import java.util.Date;
  */
 public class App30may {
     public static void main(String... args) {
+
         Student s1 = new Student(1, "Ivanov", "Ivan", "Ivanovich", new Date(31, 10, 2000), 1, 25);
         Student s2 = new Student(2, "Petrov", "Petia", "Petrovich", new Date(16, 03, 2005), 5, 4);
         Student s3 = new Student(3, "Sidorov", "Sidor", "Sidorovich", new Date(01, 10, 2007), 3, 4);
