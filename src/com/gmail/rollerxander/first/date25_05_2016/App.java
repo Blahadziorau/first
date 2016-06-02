@@ -13,12 +13,12 @@ public class App {
 
     public static void main(String... args) {
 
-      int[] mass = generateMass(10000,20);
+        int[] mass = generateMass(10000, 20);
         System.out.println(Arrays.toString(mass));
         long start = System.currentTimeMillis();
         sort(mass);
         long end = System.currentTimeMillis();
-        System.out.println(end-start);
+        System.out.println(end - start);
     }
 
     private static int[] generateMass(int count, int s) {
@@ -39,6 +39,7 @@ public class App {
     private static int[] generateMass() {
         return generateMass(COUNT);
     }
+
     private static void sort(int[] mass) {
 
         for (int j = 0; j < mass.length; j++) {
