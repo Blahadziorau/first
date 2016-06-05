@@ -5,13 +5,13 @@ package com.gmail.rollerxander.first.HomeAbstractInterface;
  */
 public class Manager extends Man {
 
-    private Truck[] baza;
+    private Automobile[] baza;
 
-    public Truck[] getBaza() {
+    public Automobile[] getBaza() {
         return baza;
     }
 
-    public void setBaza(Truck[] baza) {
+    public void setBaza(Automobile[] baza) {
         this.baza = baza;
     }
 
@@ -20,4 +20,7 @@ public class Manager extends Man {
     }
 
 
+    public void maxDis(int i){
+        baza[i].getMaxDistance();
+    }
 }
