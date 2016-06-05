@@ -5,6 +5,14 @@ package com.gmail.rollerxander.first.HomeAbstractInterface;
  */
 public interface Automobile {
 
+    int speed=0;
+    int weight=0;
+    int usageFuel=0;
+    int distance=0;
+    Driver drive=null;
+
+
+
 
 
 }

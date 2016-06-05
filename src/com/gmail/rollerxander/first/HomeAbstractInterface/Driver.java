@@ -1,7 +1,10 @@
 package com.gmail.rollerxander.first.HomeAbstractInterface;
 
-/**
- * Created by Java on 02.06.2016.
- */
-public class Driver {
+//водтель
+public class Driver extends Man {
+
+    public Driver(String sureName, String firstName, String secondName) {
+        super(sureName, firstName, secondName);
+    }
+
 }
