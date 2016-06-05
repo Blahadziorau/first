@@ -4,20 +4,21 @@ package com.gmail.rollerxander.first.HomeAbstractInterface;
  * Created by Java on 04.06.2016.
  */
 public abstract class Man {
-    private  String sureName;
-    private  String firstName;
-    private  String secondName;
+    private String sureName;
+    private String firstName;
+    private String secondName;
 
     public Man(String sureName, String firstName, String secondName) {
-        this.sureName=sureName;
-        this.firstName=firstName;
-        this.secondName=secondName;
+        this.sureName = sureName;
+        this.firstName = firstName;
+        this.secondName = secondName;
 
     }
 
     public String getSureName() {
         return sureName;
     }
+
     public String getFirstName() {
         return firstName;
     }

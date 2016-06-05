@@ -1,31 +1,23 @@
 package com.gmail.rollerxander.first.HomeAbstractInterface;
 
-import java.util.Arrays;
-
 /**
  * Created by Java on 05.06.2016.
  */
 public class Manager extends Man {
 
-    private int[] baza;
+    private Truck[] baza;
 
-    public int[] getBaza() {
+    public Truck[] getBaza() {
         return baza;
     }
 
-    public void setBaza(int[] baza) {
+    public void setBaza(Truck[] baza) {
         this.baza = baza;
-    }
-
-
-    @Override
-    public String toString() {
-        return "Manager{" +
-                "baza=" + Arrays.toString(baza) +
-                '}';
     }
 
     public Manager(String sureName, String firstName, String secondName) {
         super(sureName, firstName, secondName);
     }
+
+
 }
