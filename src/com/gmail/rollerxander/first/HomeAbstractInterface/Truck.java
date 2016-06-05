@@ -12,8 +12,6 @@ public class Truck implements Automobile {
     }
 
 
-    @Override
-    public void usageFuel() {
 
     }
-}
+

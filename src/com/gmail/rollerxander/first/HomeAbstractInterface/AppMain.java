@@ -6,7 +6,9 @@ package com.gmail.rollerxander.first.HomeAbstractInterface;
 public class AppMain {
     public static void main(String... args){
 
-        Driver driver1=new Driver("Loh", "Ivan", "Ivanovich");
-        driver1.get
+        Man driver1=new Driver("Loh", "Ivan", "Ivanovich");
+        Man manager1=new Manager("Loh", "Ivan", "Ivanovich");
+        System.out.println(manager1.getSureName());
+        System.out.println(manager1.toString());
     }
 }
