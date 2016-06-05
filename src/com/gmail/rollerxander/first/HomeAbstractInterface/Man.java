@@ -8,15 +8,16 @@ public abstract class Man {
     private  String firstName;
     private  String secondName;
 
-    @Override
-    public String toString() {
-        return "Man{" +
-                "firstName='" + firstName + '\'' +
-                ", sureName='" + sureName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                '}';
+    public Man(String sureName, String firstName, String secondName) {
+        this.sureName=sureName;
+        this.firstName=firstName;
+        this.secondName=secondName;
+
     }
 
+    public String getSureName() {
+        return sureName;
+    }
     public String getFirstName() {
         return firstName;
     }
@@ -25,14 +26,12 @@ public abstract class Man {
         return secondName;
     }
 
-    public String getSureName() {
-        return sureName;
-    }
-
-    public Man(String sureName, String firstName, String secondName) {
-        this.sureName=sureName;
-        this.firstName=firstName;
-        this.secondName=secondName;
-
+    @Override
+    public String toString() {
+        return "Man{" +
+                "firstName='" + firstName + '\'' +
+                ", sureName='" + sureName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                '}';
     }
 }
