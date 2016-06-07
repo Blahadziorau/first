@@ -24,8 +24,8 @@ public class MainApp06 {
         });
         */
 
-       // sort(users, (a,b)->{return a.getVozrast()-b.getVozrast(); });//лямбды
-       // sort(users, (a,b)->{return a.getFirstName().compareToIgnoreCase(a.getFirstName()); });//лямбды
+        // sort(users, (a,b)->{return a.getVozrast()-b.getVozrast(); });//лямбды
+        // sort(users, (a,b)->{return a.getFirstName().compareToIgnoreCase(a.getFirstName()); });//лямбды
 
 
        /* ShowUsers(users,user -> System.out.println(user.getFirstName())); //через лямбда
@@ -40,6 +40,7 @@ public class MainApp06 {
         });
         */
     }
+
     public static void ShowUsers(User[] users, Printer printer) {
         for (User u : users) {
             printer.print(u);

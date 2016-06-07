@@ -7,6 +7,6 @@ public class CompareUserByAge implements CompareUser {
 
 
     public int compare(User user1, User user2) {
-        return user2.getVozrast()-user1.getVozrast();
+        return user2.getVozrast() - user1.getVozrast();
     }
 }
