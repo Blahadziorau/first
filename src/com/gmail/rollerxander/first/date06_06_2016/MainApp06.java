@@ -48,7 +48,6 @@ public class MainApp06 {
         }
     }
 
-
     private static void sort(User[] users, CompareUser compareUser) {
         for (int i = 0; i < users.length; i++) {
 
