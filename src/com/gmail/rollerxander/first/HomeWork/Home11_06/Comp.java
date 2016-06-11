@@ -21,6 +21,9 @@ public class Comp {
 
     public Comp() {
         Scanner sc = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+        Scanner sc3 = new Scanner(System.in);
         System.out.println("Введи имя компа");
         if (sc.hasNextLine()) {
             name = sc.nextLine();
@@ -30,24 +33,24 @@ public class Comp {
         }
 
 
-        if (sc.hasNextInt()) {
-            ram = sc.nextInt();
+        if (sc1.hasNextInt()) {
+            ram = sc1.nextInt();
             System.out.println(ram + "  successfully added");
         } else {
             System.out.println("Enter INT Data");
         }
 
         System.out.println("Введи hdd");
-        if (sc.hasNextInt()) {
-            hdd = sc.nextInt();
+        if (sc2.hasNextInt()) {
+            hdd = sc2.nextInt();
             System.out.println(hdd + "  successfully added");
         } else {
             System.out.println("Enter INT Data");
         }
 
         System.out.println("Введи weight");
-        if (sc.hasNextDouble()) {
-            weight = sc.nextDouble();
+        if (sc3.hasNextDouble()) {
+            weight = sc3.nextDouble();
             System.out.println(weight + "  successfully added");
         } else {
             System.out.println("Enter DOUBLE Data");
