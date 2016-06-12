@@ -23,6 +23,7 @@ public class ArrList {
             //System.out.println(mass.get(el).getName()+" "+mass.get(el).getNumber());
             System.out.println(mass.get(el).toString());
         }
-        System.out.println("Размер листа: "+mass.size());
+        System.out.println("Размер листа: " + mass.size());
     }
+
 }
