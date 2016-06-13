@@ -5,6 +5,20 @@ package com.gmail.rollerxander.first.date08_06_2016.Collections;
  */
 public class User implements Comparable<User>{
    private  String name;
+    private int id;
+
+    public User(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public User(String name) {
         this.name = name;
@@ -16,6 +30,14 @@ public class User implements Comparable<User>{
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 
     @Override
