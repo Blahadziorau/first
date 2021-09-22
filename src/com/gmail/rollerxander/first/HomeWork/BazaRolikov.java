@@ -15,7 +15,7 @@ public class BazaRolikov {
 
     public static String para() {
         String brand, model;
-        double razmer;
+        double size;
         int diametrKoles, godVypuska;
 
         Scanner sc = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class BazaRolikov {
         System.out.println("введи год выпуска");
         godVypuska = sc.nextInt();
 
-        Roliki para = new Roliki(brand, model, razmer, diametrKoles, godVypuska);
+        Rollerskates para = new Roliki(brand, model, size, diametrKoles, godVypuska);
         return para.toString();
 
 
