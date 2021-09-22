@@ -7,14 +7,14 @@ package com.gmail.rollerxander.first.HomeWork;
 public class Rollerskates {
     private String brand;
     private String model;
-    private double razmer;
+    private double size;
     private int diametrKoles;
     private int godVypuska;
 
-    public Roliki(String brand, String model, double razmer, int diametrKoles, int godVypuska) {
+    public newRollerskates(String brand, String model, double size, int diametrKoles, int godVypuska) {
         this.brand = brand;
         this.model = model;
-        this.razmer = razmer;
+        this.size = size;
         this.diametrKoles = diametrKoles;
         this.godVypuska = godVypuska;
     }
@@ -25,7 +25,7 @@ public class Rollerskates {
         return "Roliki " +
                 " Производитель " + brand +
                 ", модель " + model +
-                ", размер " + razmer +
+                ", размер " + size +
                 ", диаметр колес " + diametrKoles +
                 ", год выпуска " + godVypuska
                 ;
