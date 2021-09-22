@@ -4,7 +4,7 @@ package com.gmail.rollerxander.first.HomeWork;
 /**
  * Created by Rollershop on 29.05.2016.
  */
-public class Roliki {
+public class Rollerskates {
     private String brand;
     private String model;
     private double razmer;
